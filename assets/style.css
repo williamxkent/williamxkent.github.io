@@ -1,5 +1,41 @@
-p {
+body {
     font-family: monospace;
     font-size: 12pt;
     letter-spacing: -0.5px;
+    text-align: center;
+    white-space: pre-line;
+    margin: 5px, 5px, 5px, 5px;
+    line-height: 1.1em;
+}
+
+#one {
+    font-family: monospace;
+    font-size: 12pt;
+    letter-spacing: -0.5px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    white-space: pre-line;
+    line-height: 1.2em;
+    
+}
+
+details > summary {
+    margin-bottom: 0px;
+    padding: 0px
+}
+
+details > a {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color:gray
+}
+
+a:hover {
+    background-color:lightgray
 }
